@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.main-page {
+    height: 100vh;
+}
+
+.main-page nav {
+    padding: 40px 30px;
+}
+
+.main-page nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-page nav ul .left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-page nav ul .left .logo {
+    margin-right: 60px;
+}
+
+.main-page nav ul .left .buttons {
+    margin-inline: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(0, 0%, 41%);
+}
+
+.main-page nav ul .left .buttons:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.main-page nav ul .left .buttons img {
+    margin-left: 5px;
+}
+
+.main-page nav ul .right {
+    display: flex;
+}
+
+.main-page nav ul .right li {
+    margin-inline: 30px;
+}
+
+.main-page nav ul .right li button{
+    border: none;
+    background-color: transparent;
+    color: hsl(0, 0%, 41%);
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.main-page nav ul .right li button:hover {
+    color: hsl(0, 0%, 8%);
+    border-color: hsl(0, 0%, 8%);
+}
+
+.main-page nav ul .right li button.scnd-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrapper .left {
+    width: 60%;
+    padding: 50px;
+}
+
+.wrapper .left h1 {
+    font-size: 6rem;
+    font-weight: 650;
+    margin-bottom: 35px;
+}
+
+.wrapper .left p {
+    font-size: 20px;
+    color: hsl(0, 0%, 41%);
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.wrapper .left button {
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 41%);
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 120;
+}
+
+.wrapper .left button:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: white;
+    border-color: hsl(0, 0%, 8%);
+}
+
+.wrapper .left .footer-icons img {
+    margin-inline: 20px;
+}
+
+.wrapper .right {
+    width: 35%;
+}
+
+.wrapper .right img {
+    width: 100%;
+    padding: 30px;
+    height: 100%;
+}
+
+.fblog {
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px hsl(0, 0%, 41%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 5px;
+    position: absolute;
+    top: 80px;
+    left: 135px;
+}
+
+.fblog p {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.fblog img {
+    margin-right: 5px;
+}
+
+.cblog {
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px hsl(0, 0%, 41%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 5px;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+.cblog p {
+    margin: 10px 0;
+}
